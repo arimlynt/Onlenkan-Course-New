@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "635a0f1b459c8333845f3705"
+  },
+  "sosmed": {
+    "linkedin": "www.linkedin.com",
+    "instagram": "www.instagram.com",
+    "tiktok": "www.tiktok.com",
+    "youtube": "www.youtube.com",
+    "facebook": "www.facebook.com"
+  },
+  "kontak": {
+    "alamat": "jl bahagia cuy",
+    "email": "tes123@gmail.com",
+    "phoneNumber": {
+      "$numberLong": "6285343776990"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666846491759"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666859825561"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a0f37459c8333845f3707"
+  },
+  "sosmed": {
+    "linkedin": "www.linkedin.com",
+    "instagram": "www.linkedin.com",
+    "tiktok": "www.linkedin.com",
+    "youtube": "www.linkedin.com",
+    "facebook": "www.linkedin.com"
+  },
+  "kontak": {
+    "alamat": "jl jalan gg kota baru",
+    "email": "tes12@gmail.com",
+    "phoneNumber": {
+      "$numberLong": "85343776990"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666846519553"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666846519553"
+    }
+  },
+  "__v": 0
+}]

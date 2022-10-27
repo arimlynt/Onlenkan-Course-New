@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "635a447fd1e55b110c9331b0"
+  },
+  "partVideo": {
+    "title": "intro",
+    "order": 1,
+    "video": {
+      "title": "fundamental react JS",
+      "link": "www.youtube.com",
+      "order": 1
+    }
+  },
+  "status": "Published",
+  "title": "React JS mantap",
+  "category": "Front End",
+  "slogan": "Bayar sekali akses selamanya",
+  "description": "ini adalah kelas react js",
+  "keypoint": "keypoint 1",
+  "designedfor": "beginner",
+  "tools": "vscode",
+  "price": 200000,
+  "discount": 0,
+  "photo": "094c8e288b2b1b42a0d59b9f72965657.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666860159464"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666860310490"
+    }
+  },
+  "slug": "react-js-mantap",
+  "__v": 0
+}]

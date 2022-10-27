@@ -1,0 +1,496 @@
+{
+	"info": {
+		"_postman_id": "96b11f2f-2dc2-4a8a-851e-8f7873f56764",
+		"name": "ONLENKAN COURSE SERVER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "academy",
+			"item": [
+				{
+					"name": "Get Landing Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/academys/landingpage",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"academys",
+								"landingpage"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Detail Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/academys/635a447fd1e55b110c9331b0/detailpage",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"academys",
+								"635a447fd1e55b110c9331b0",
+								"detailpage"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "arimlynt123@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "name",
+									"value": "Ari Mulyanto",
+									"type": "default"
+								},
+								{
+									"key": "password",
+									"value": "rahasia",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/auth/signup",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"arimlynt123@gmail.com\",\r\n    \"password\" : \"rahasia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/auth/signin",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Course",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/course/",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"course",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "React JS",
+									"type": "default"
+								},
+								{
+									"key": "category",
+									"value": "Front End",
+									"type": "default"
+								},
+								{
+									"key": "slogan",
+									"value": "Bayar sekaliakses selamanya",
+									"type": "default"
+								},
+								{
+									"key": "description",
+									"value": "ini adalah kelas react js",
+									"type": "default"
+								},
+								{
+									"key": "designedfor",
+									"value": "beginner",
+									"type": "default"
+								},
+								{
+									"key": "tools",
+									"value": "vscode",
+									"type": "default"
+								},
+								{
+									"key": "price",
+									"value": "200000",
+									"type": "default"
+								},
+								{
+									"key": "discount",
+									"value": "0",
+									"type": "default"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/D:/Download 2.0/react.png"
+								},
+								{
+									"key": "partVideo[title]",
+									"value": "intro",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[order]",
+									"value": "1",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[video][title]",
+									"value": "fundamental react",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[video][link]",
+									"value": "www.youtube.com",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[video][order]",
+									"value": "1",
+									"type": "default"
+								},
+								{
+									"key": "keypoint",
+									"value": "keypoint 1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/course/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"course",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "edit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "React JS mantap",
+									"type": "default"
+								},
+								{
+									"key": "category",
+									"value": "Front End",
+									"type": "default"
+								},
+								{
+									"key": "slogan",
+									"value": "Bayar sekali akses selamanya",
+									"type": "default"
+								},
+								{
+									"key": "description",
+									"value": "ini adalah kelas react js",
+									"type": "default"
+								},
+								{
+									"key": "designedfor",
+									"value": "beginner",
+									"type": "default"
+								},
+								{
+									"key": "tools",
+									"value": "vscode",
+									"type": "default"
+								},
+								{
+									"key": "price",
+									"value": "200000",
+									"type": "default"
+								},
+								{
+									"key": "discount",
+									"value": "0",
+									"type": "default"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "partVideo[title]",
+									"value": "intro",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[order]",
+									"value": "1",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[video][title]",
+									"value": "fundamental react JS",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[video][link]",
+									"value": "www.youtube.com",
+									"type": "default"
+								},
+								{
+									"key": "partVideo[video][order]",
+									"value": "1",
+									"type": "default"
+								},
+								{
+									"key": "keypoint",
+									"value": "keypoint 1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/course/edit/635a447fd1e55b110c9331b0",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"course",
+								"edit",
+								"635a447fd1e55b110c9331b0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/course/delete/6354aaf6c92361267404ccbb",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"course",
+								"delete",
+								"6354aaf6c92361267404ccbb"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Footer",
+			"item": [
+				{
+					"name": "index",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sosmed\" : {\r\n        \"linkedin\" : \"www.linkedin.com\",\r\n        \"instagram\" : \"www.instagram.com\",\r\n        \"tiktok\" : \"www.tiktok.com\",\r\n        \"youtube\" : \"www.youtube.com\",\r\n        \"facebook\" : \"www.facebook.com\"\r\n    },\r\n    \"kontak\" : {\r\n        \"alamat\" : \"jl bahagia\",\r\n        \"email\" : \"tes123@gmail.com\",\r\n        \"phoneNumber\" : \"6285343776990\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/footer/",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"footer",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sosmed\" : {\r\n        \"linkedin\" : \"www.linkedin.com\",\r\n        \"instagram\" : \"www.linkedin.com\",\r\n        \"tiktok\" : \"www.linkedin.com\",\r\n        \"youtube\" : \"www.linkedin.com\",\r\n        \"facebook\" : \"www.linkedin.com\"\r\n    },\r\n    \"kontak\" : {\r\n        \"alamat\" : \"jl jalan gg kota baru\",\r\n        \"email\" : \"tes12@gmail.com\",\r\n        \"phoneNumber\" : \"085343776990\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/footer/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"footer",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "edit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sosmed\" : {\r\n        \"linkedin\" : \"www.linkedin.com\",\r\n        \"instagram\" : \"www.instagram.com\",\r\n        \"tiktok\" : \"www.tiktok.com\",\r\n        \"youtube\" : \"www.youtube.com\",\r\n        \"facebook\" : \"www.facebook.com\"\r\n    },\r\n    \"kontak\" : {\r\n        \"alamat\" : \"jl bahagia cuy\",\r\n        \"email\" : \"tes123@gmail.com\",\r\n        \"phoneNumber\" : \"6285343776990\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/footer/edit/635a0f1b459c8333845f3705",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"footer",
+								"edit",
+								"635a0f1b459c8333845f3705"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/footer/delete/63519d885465f81dd4dbdeb9",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"footer",
+								"delete",
+								"63519d885465f81dd4dbdeb9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://localhost:3000/api/v1",
+			"type": "default"
+		}
+	]
+}

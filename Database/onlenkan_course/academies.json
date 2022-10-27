@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "6334710f842c594e001a6a78"
+  },
+  "role": "member",
+  "status": "Y",
+  "email": "mencoba123@gmail.com",
+  "name": "Ilham Andreansyah",
+  "password": "$2a$10$0itQCz9y/F1oLliIWC/3v.DHqb0Uu6M2bSzNm/VwPmCiwmK.d.2wa",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664381199107"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664381199107"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633486f4f2996d57cc8244df"
+  },
+  "role": "member",
+  "status": "Y",
+  "email": "arimlynt123@gmail.com",
+  "name": "Ari Mulyanto",
+  "password": "$2a$10$kS.dt7riaeaXFwxVflQXlO2uMiGchgBO0p16jfRHG6xN9mPB8Rd4e",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664386804811"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664386804811"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63368e8ee87db31edce99bf3"
+  },
+  "role": "member",
+  "status": "Y",
+  "email": "arimlynt@gmail.com",
+  "name": "Ari Mulya",
+  "password": "$2a$10$4y/LaulTqkclgExg57QxK.0/hZzKDDh0IE./E8xVOQkeYge9uMA7q",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664519822305"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664519822305"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633702f624ddb717408b11dd"
+  },
+  "role": "member",
+  "status": "Y",
+  "email": "tes123@gmail.com",
+  "name": "Choirul",
+  "password": "$2a$10$BZRfPF7P7GoS6yei5gL0P.5bItTfAJJdHDJJ5tV9cDXRobnNvbjVG",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664549622080"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664549622080"
+    }
+  },
+  "__v": 0
+}]
